@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16C7B04ED1BC5132881CCE07 /* Pods_mySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F728B6FF46546121A467A5 /* Pods_mySwift.framework */; };
+		2E6B4A181F078A7300F8E077 /* YLPNeonCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4A021F078A7300F8E077 /* YLPNeonCoordinates.m */; };
+		2E6B4A191F078A7300F8E077 /* View+YLPAlignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4A051F078A7300F8E077 /* View+YLPAlignable.m */; };
+		2E6B4A1A1F078A7300F8E077 /* View+YLPAnchorable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4A071F078A7300F8E077 /* View+YLPAnchorable.m */; };
+		2E6B4A1B1F078A7300F8E077 /* View+YLPFrameable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4A091F078A7300F8E077 /* View+YLPFrameable.m */; };
+		2E6B4A1C1F078A7300F8E077 /* View+YLPGroupable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4A0B1F078A7300F8E077 /* View+YLPGroupable.m */; };
+		2E6B4A1D1F078A7300F8E077 /* View+YLPNeon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4A0D1F078A7300F8E077 /* View+YLPNeon.m */; };
+		2E6B4A1E1F078A7300F8E077 /* YLPNeonConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4A111F078A7300F8E077 /* YLPNeonConstraint.m */; };
+		2E6B4A1F1F078A7300F8E077 /* YLPNeonLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4A131F078A7300F8E077 /* YLPNeonLayout.m */; };
+		2E6B4A201F078A7300F8E077 /* YLPNeonViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4A171F078A7300F8E077 /* YLPNeonViewAttribute.m */; };
 		2E7C7EA31F0772530080C117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C7EA21F0772530080C117 /* AppDelegate.swift */; };
 		2E7C7EA51F0772530080C117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C7EA41F0772530080C117 /* ViewController.swift */; };
 		2E7C7EA81F0772530080C117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7C7EA61F0772530080C117 /* Main.storyboard */; };
@@ -15,6 +25,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		150FEAB3D272622BD5489556 /* Pods-mySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mySwift/Pods-mySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		2E6B4A011F078A7300F8E077 /* YLPNeonCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPNeonCoordinates.h; sourceTree = "<group>"; };
+		2E6B4A021F078A7300F8E077 /* YLPNeonCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPNeonCoordinates.m; sourceTree = "<group>"; };
+		2E6B4A041F078A7300F8E077 /* View+YLPAlignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+YLPAlignable.h"; sourceTree = "<group>"; };
+		2E6B4A051F078A7300F8E077 /* View+YLPAlignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+YLPAlignable.m"; sourceTree = "<group>"; };
+		2E6B4A061F078A7300F8E077 /* View+YLPAnchorable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+YLPAnchorable.h"; sourceTree = "<group>"; };
+		2E6B4A071F078A7300F8E077 /* View+YLPAnchorable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+YLPAnchorable.m"; sourceTree = "<group>"; };
+		2E6B4A081F078A7300F8E077 /* View+YLPFrameable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+YLPFrameable.h"; sourceTree = "<group>"; };
+		2E6B4A091F078A7300F8E077 /* View+YLPFrameable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+YLPFrameable.m"; sourceTree = "<group>"; };
+		2E6B4A0A1F078A7300F8E077 /* View+YLPGroupable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+YLPGroupable.h"; sourceTree = "<group>"; };
+		2E6B4A0B1F078A7300F8E077 /* View+YLPGroupable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+YLPGroupable.m"; sourceTree = "<group>"; };
+		2E6B4A0C1F078A7300F8E077 /* View+YLPNeon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+YLPNeon.h"; sourceTree = "<group>"; };
+		2E6B4A0D1F078A7300F8E077 /* View+YLPNeon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+YLPNeon.m"; sourceTree = "<group>"; };
+		2E6B4A0F1F078A7300F8E077 /* YLPNeon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPNeon.h; sourceTree = "<group>"; };
+		2E6B4A101F078A7300F8E077 /* YLPNeonConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPNeonConstraint.h; sourceTree = "<group>"; };
+		2E6B4A111F078A7300F8E077 /* YLPNeonConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPNeonConstraint.m; sourceTree = "<group>"; };
+		2E6B4A121F078A7300F8E077 /* YLPNeonLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPNeonLayout.h; sourceTree = "<group>"; };
+		2E6B4A131F078A7300F8E077 /* YLPNeonLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPNeonLayout.m; sourceTree = "<group>"; };
+		2E6B4A141F078A7300F8E077 /* YLPNeonLayoutProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPNeonLayoutProtocol.h; sourceTree = "<group>"; };
+		2E6B4A151F078A7300F8E077 /* YLPNeonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPNeonUtilities.h; sourceTree = "<group>"; };
+		2E6B4A161F078A7300F8E077 /* YLPNeonViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPNeonViewAttribute.h; sourceTree = "<group>"; };
+		2E6B4A171F078A7300F8E077 /* YLPNeonViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPNeonViewAttribute.m; sourceTree = "<group>"; };
+		2E6B4A211F07ACF900F8E077 /* mySwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mySwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		2E7C7E9F1F0772530080C117 /* mySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7C7EA21F0772530080C117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E7C7EA41F0772530080C117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +55,8 @@
 		2E7C7EA91F0772530080C117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E7C7EAC1F0772530080C117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E7C7EAE1F0772530080C117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F93D393A99DC65E4E9F102 /* Pods-mySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-mySwift/Pods-mySwift.release.xcconfig"; sourceTree = "<group>"; };
+		E3F728B6FF46546121A467A5 /* Pods_mySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +64,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C7B04ED1BC5132881CCE07 /* Pods_mySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E6B49FE1F078A4500F8E077 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B49FF1F078A7300F8E077 /* YLPNeon */,
+				2E6B4A211F07ACF900F8E077 /* mySwift-Bridging-Header.h */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		2E6B49FF1F078A7300F8E077 /* YLPNeon */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B4A001F078A7300F8E077 /* Helpers */,
+				2E6B4A031F078A7300F8E077 /* UIKit+YLPNeon */,
+				2E6B4A0E1F078A7300F8E077 /* YLPNeon */,
+			);
+			name = YLPNeon;
+			path = "../../../YLPNeon-master/YLPNeon";
+			sourceTree = "<group>";
+		};
+		2E6B4A001F078A7300F8E077 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B4A011F078A7300F8E077 /* YLPNeonCoordinates.h */,
+				2E6B4A021F078A7300F8E077 /* YLPNeonCoordinates.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2E6B4A031F078A7300F8E077 /* UIKit+YLPNeon */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B4A041F078A7300F8E077 /* View+YLPAlignable.h */,
+				2E6B4A051F078A7300F8E077 /* View+YLPAlignable.m */,
+				2E6B4A061F078A7300F8E077 /* View+YLPAnchorable.h */,
+				2E6B4A071F078A7300F8E077 /* View+YLPAnchorable.m */,
+				2E6B4A081F078A7300F8E077 /* View+YLPFrameable.h */,
+				2E6B4A091F078A7300F8E077 /* View+YLPFrameable.m */,
+				2E6B4A0A1F078A7300F8E077 /* View+YLPGroupable.h */,
+				2E6B4A0B1F078A7300F8E077 /* View+YLPGroupable.m */,
+				2E6B4A0C1F078A7300F8E077 /* View+YLPNeon.h */,
+				2E6B4A0D1F078A7300F8E077 /* View+YLPNeon.m */,
+			);
+			path = "UIKit+YLPNeon";
+			sourceTree = "<group>";
+		};
+		2E6B4A0E1F078A7300F8E077 /* YLPNeon */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B4A0F1F078A7300F8E077 /* YLPNeon.h */,
+				2E6B4A101F078A7300F8E077 /* YLPNeonConstraint.h */,
+				2E6B4A111F078A7300F8E077 /* YLPNeonConstraint.m */,
+				2E6B4A121F078A7300F8E077 /* YLPNeonLayout.h */,
+				2E6B4A131F078A7300F8E077 /* YLPNeonLayout.m */,
+				2E6B4A141F078A7300F8E077 /* YLPNeonLayoutProtocol.h */,
+				2E6B4A151F078A7300F8E077 /* YLPNeonUtilities.h */,
+				2E6B4A161F078A7300F8E077 /* YLPNeonViewAttribute.h */,
+				2E6B4A171F078A7300F8E077 /* YLPNeonViewAttribute.m */,
+			);
+			path = YLPNeon;
+			sourceTree = "<group>";
+		};
 		2E7C7E961F0772530080C117 = {
 			isa = PBXGroup;
 			children = (
 				2E7C7EA11F0772530080C117 /* mySwift */,
 				2E7C7EA01F0772530080C117 /* Products */,
+				5322D1312BF06B9E616D5C19 /* Pods */,
+				F2107CB20BEF294F94C65FEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +154,7 @@
 		2E7C7EA11F0772530080C117 /* mySwift */ = {
 			isa = PBXGroup;
 			children = (
+				2E6B49FE1F078A4500F8E077 /* vendor */,
 				2E7C7EA21F0772530080C117 /* AppDelegate.swift */,
 				2E7C7EA41F0772530080C117 /* ViewController.swift */,
 				2E7C7EA61F0772530080C117 /* Main.storyboard */,
@@ -64,6 +165,23 @@
 			path = mySwift;
 			sourceTree = "<group>";
 		};
+		5322D1312BF06B9E616D5C19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				150FEAB3D272622BD5489556 /* Pods-mySwift.debug.xcconfig */,
+				36F93D393A99DC65E4E9F102 /* Pods-mySwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2107CB20BEF294F94C65FEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3F728B6FF46546121A467A5 /* Pods_mySwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E7C7EB11F0772530080C117 /* Build configuration list for PBXNativeTarget "mySwift" */;
 			buildPhases = (
+				04F60279E57094DD6EB031E7 /* [CP] Check Pods Manifest.lock */,
 				2E7C7E9B1F0772530080C117 /* Sources */,
 				2E7C7E9C1F0772530080C117 /* Frameworks */,
 				2E7C7E9D1F0772530080C117 /* Resources */,
+				A4BCFB467EA64EE28CC00727 /* [CP] Embed Pods Frameworks */,
+				5BA52ABC39DCA351151FA15A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,12 +212,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = ytlvy.com;
 				TargetAttributes = {
 					2E7C7E9E1F0772530080C117 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = V7SGL5CCQ8;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,12 +254,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04F60279E57094DD6EB031E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA52ABC39DCA351151FA15A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySwift/Pods-mySwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BCFB467EA64EE28CC00727 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySwift/Pods-mySwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E7C7E9B1F0772530080C117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6B4A191F078A7300F8E077 /* View+YLPAlignable.m in Sources */,
+				2E6B4A201F078A7300F8E077 /* YLPNeonViewAttribute.m in Sources */,
 				2E7C7EA51F0772530080C117 /* ViewController.swift in Sources */,
+				2E6B4A181F078A7300F8E077 /* YLPNeonCoordinates.m in Sources */,
+				2E6B4A1F1F078A7300F8E077 /* YLPNeonLayout.m in Sources */,
+				2E6B4A1A1F078A7300F8E077 /* View+YLPAnchorable.m in Sources */,
+				2E6B4A1D1F078A7300F8E077 /* View+YLPNeon.m in Sources */,
+				2E6B4A1E1F078A7300F8E077 /* YLPNeonConstraint.m in Sources */,
+				2E6B4A1C1F078A7300F8E077 /* View+YLPGroupable.m in Sources */,
+				2E6B4A1B1F078A7300F8E077 /* View+YLPFrameable.m in Sources */,
 				2E7C7EA31F0772530080C117 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,7 +353,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,7 +363,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -211,6 +396,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 			};
 			name = Debug;
 		};
@@ -224,7 +410,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -232,7 +420,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -253,12 +445,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		2E7C7EB21F0772530080C117 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150FEAB3D272622BD5489556 /* Pods-mySwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V7SGL5CCQ8;
@@ -266,12 +460,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ytlvy.mySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "mySwift/vendor/mySwift-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		2E7C7EB31F0772530080C117 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F93D393A99DC65E4E9F102 /* Pods-mySwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V7SGL5CCQ8;
@@ -279,7 +476,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ytlvy.mySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "mySwift/vendor/mySwift-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -302,6 +501,7 @@
 				2E7C7EB31F0772530080C117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
